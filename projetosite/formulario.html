@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title> Formulário para Publicação </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!---CSS--->
+    <link rel ="stylesheet" type="text/css" href="style.css">
+
+    <!--JS-->
+    <link rel="stylesheet" type="text/js" href="funcao.js">
+
+    <!--- Bootstrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body class="fundo">
+
+    <header>
+      <div class="menu">
+        <!--LOGO ou Nome-->
+        <img src="tcclogo.png" id="Icon" width= 6%>
+        <!--Menu-->
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Projeto</a></li>
+            <li><a href="#">Sobre</a></li>
+
+          </ul>
+        </nav>
+        <div class="pesquisa">
+          <input type="text" id="busca" placeholder="Pesquise aqui">
+          <button type="button" name="busque">Buscar</button>
+        </div>
+        <ul>
+            <li><a id="Sair" href="index.html">Sair</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+
+      <form class="formulario">
+
+        <h4>Formulário para Publicação</h4>
+
+        <div class="formTcc">
+
+          <div class="tipoForm">
+            <label>Título:</label>
+            <input type="text" name="title" required = "required">
+          </div>
+
+          <div class="tipoForm">
+            <label>Curso:</label>
+            <select name= “qual_curso” required = "required">
+                  <option> Informática </option>
+                	<option> Contabilidade </option>
+                  <option> Edificações </option>
+                  <option> Gestão Comercial </option>
+             </select>
+           </div>
+
+          <div class="tipoForm">
+            <label>Orientador (a/s):</label>
+            <input type="text" name="orientador" required>
+            <input type="text" name="orientador2">
+         </div>
+
+          <div class="tipoForm">
+            <label>Assunto geral:</label>
+            <input type="text" name="assuntos" required>
+          </div>
+
+          <div class = "tipoForm">
+              <label> Colocar Arquivo: </label>
+              <input type="file" name="colocarArquivo" required>
+          </div>
+
+          <div class="tipoForm">
+            <label>Descrição:</label>
+            <textarea required = "required" cols="45" rows="8"></textarea>
+          </div>
+
+          <div>
+            <button class="botao1" type="submit">
+              <a href="#" id="botãoCor"> Prosseguir </a>
+            </button>
+          </div>
+
+
+        </div>
+
+      </form>
+
+
+
+    </main>
+
+  </body>
+</html>

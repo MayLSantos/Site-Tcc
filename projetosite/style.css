@@ -1,0 +1,415 @@
+/*Reset*/
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+header,main, footer{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding: 10px;
+  background-color: #C1CDCD;
+}
+
+main h1 {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  background: #8B1A1A;
+}
+
+/*.inicial{
+  display: flex;
+  background: #8B1A1A;
+  align-items: center;
+}*/
+
+.inicial{
+  display: flex;
+  justify-content: center;
+}
+
+/*Menu*/
+
+.menu{
+  display: flex;
+  align-items: center;
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: auto;
+  font-weight: bolder;
+}
+
+.menu  li a{
+  padding: 24px;
+  color: #8B1A1A;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  background-color: white;
+  color: black;
+}
+
+.pesquisa{
+  padding: 5px;
+  display: flex;
+}
+
+.pesquisa button {
+  padding: 6px;
+  font-size: 10px;
+  border-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  background: #8B1A1A;
+  color: white;
+}
+
+
+#busca{
+  padding: 5px;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  opacity: 85%;
+  border-color: #8B1A1A;;
+}
+
+/*Body*/
+
+body {
+  font-family: sans-serif, arial, verdana;
+  font-size: 16px;
+} /*Esse já é o padrão. A gente pode mudar a fonte depois*/
+
+
+.titulologin{
+  text-align: center;
+  font-size: 50px;
+  font: verdana;
+}
+
+
+
+/*Login*/
+#tituloform{
+  text-align: center;
+  font-family:inherit;
+  font-size: 50px;
+  color: #E8E8E8;
+  padding: 10px;
+}
+
+.fundo{
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/11/18/52/landscape-2494650_960_720.jpg);
+  background-color: 30%;
+  color: white;
+  font-family: arial;
+}
+
+.entrada{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: auto;
+}
+
+.login{
+  text-align: left;
+  border-radius: 25px;
+  padding: 150px 100px;
+}
+
+/*.entradaform {
+  padding: 0px;
+  margin: 0px;
+}*/
+
+
+.entradaform input{
+  display: block;
+  height: 50px;
+  width: 700px;
+  margin: 10px;
+  border-radius:30px;
+  border: 1px solid black;
+  font-size: 16pt;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.entradaform label{
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: auto;
+  color: white;
+
+}
+
+.entradaform a {
+  color: white;
+  font-size: 1.4em;
+  margin: 150px auto 0px auto;
+
+}
+.entradaform a:hover{
+  color: white;
+}
+
+.entradaform-check{
+   display:inline-block;
+   font-size: 15px;
+   font: arial;
+}
+
+.checklogin{
+  float: left;
+  padding: 2px;
+  height: 25px;
+}
+
+
+
+#botão {
+  padding: 20px 40px;
+  /*height: 40px 40px;*/
+  width: 400px;
+  margin: 10px 150px 0px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 15px;
+  /*outline: none;*/
+}
+
+#botão a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#click{
+  color: white;
+  height: 20px;
+  margin: 60px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #EEEEE0;
+}
+
+#click a {
+  font-size: 25px;
+  color: white;
+}
+
+
+
+/*Cadastro*/
+
+#titulo, #subtitulo{
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.grupo{
+  font-family: sans-serif;
+  font-size: 1em;
+  color: white;
+  margin-left: 36%;
+  margin-top: 10%
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: 40px auto 0px auto;
+  padding: 10px 20px;
+}
+
+.form-text {
+  color: white;
+}
+
+.form-group label{
+  margin-bottom: 10px;
+}
+
+input, select{
+  border-radius: 5px;
+  display:block;
+}
+
+fieldset .grupo{
+  float: left;
+}
+
+.form-group input[type="text"], .form-group input[type="date"], .form-group input[type="password"]{
+  padding: 10px 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  display: block;
+}
+
+.botaocad{
+  border:1px solid #25692A;
+  border-radius:4px;
+  display:inline-block;
+  cursor:pointer;
+  font-family:Verdana;
+  font-size:13px;
+  padding:6px 10px;
+  text-decoration:none;
+  background-color: #FAFAD2;
+  width: 200px;
+  margin: 10px 150px 0px ;
+
+}
+
+.botaocad:hover{
+  background-color: #B0E2FF;
+  box-shadow: inset 2px 2px 2px red;
+
+}
+
+.botaocad, select{
+  cursos: pointer;
+}
+
+.check{
+  display: inline-block;
+}
+
+.botao1{
+  padding: 10px 20px 10px 20px;
+  color: black;
+  background: white;
+  border-radius: 10px;
+}
+
+#botãoCor {
+  color: black;
+  text-decoration: none;
+}
+
+.termo {
+  border: 2px solid gray;
+  padding: 30px;
+  margin: 10px;
+}
+
+.termoGeral{ margin: 150px;}
+
+.concordar {display: inline-block;}
+
+/* Perfil */
+
+#publiTcc {
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  color: white;
+  background: red;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.parte1{ /*teste*/
+  padding: 150px;
+   margin: 50px;
+   border: 1px solid black;
+   text-align: center;
+}
+
+/*formulario*/
+
+.formTcc{
+  padding: 20px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgba(193, 205, 205, 50%);
+  border: 3px solid #8B1A1A;
+}
+
+.formTcc input {
+  border-radius: 20px;
+  opacity: 85%;
+  /*padding: 7px 50px ;*/
+  width: 300px;
+  height: 40px;
+  padding: 15px;
+}
+
+.tipoForm{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
+.formulario h4 {
+  color: white;
+  background: #8B1A1A;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0px;
+  padding: 8px;
+  font-weight: bolder;
+}
+
+.formulario {margin: 100px;}
+
+.formTcc label {
+  font-weight: bolder;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.formTcc textarea, select {
+  opacity: 80%;
+  padding: 8px;
+}
+
+
+
+/*Rodapé - teste*/
+/*font-weight: bolder;*/
+
+footer{
+  background: #C1CDCD;
+  color:  #8B1A1A;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+#ifGba{padding-bottom: 16px;}
+
+.fim{
+  background: #8B1A1A;
+  color: white;
+  text-align: right;
+  padding: 8px;
+}
+
+/* PHP */
+
+div.msg{
+  width: 420px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: yellow;
+  border:  1px solid gray;
+  border-radius: 10px;
+} /*mudar a cor para a cor da mensagem de sucesso ou erro*/
